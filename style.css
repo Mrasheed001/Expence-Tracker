@@ -1,0 +1,42 @@
+
+#submit-btn:hover{
+        box-Shadow:0 8px 20px rgba(0, 0, 0, 0.3);
+}
+    
+    
+input:focus{
+    box-Shadow:0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-slider{
+    -webkit-appearance:none;
+    appearance:none;
+    height:4px;
+    border-radius:999px;
+    background:#e5e7eb;
+    outline:none;
+    background: linear-gradient(to right, #14b8a6 40%, #e5e7eb 40%, #e5e7eb 100%);
+}
+
+.category-slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0;
+    width:0;
+}
+.category-slider::-moz-range-thumb{
+    height:0;
+    width:0;
+    border:none;
+
+}
+.error{
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 2px;
+}
+
+input.error-input{
+    border: 2px solid red;
+}
